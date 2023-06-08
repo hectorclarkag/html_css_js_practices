@@ -1,0 +1,113 @@
+@media screen and (min-width: 768px) {
+    body {
+        box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0);
+        margin-left: 0px;
+        margin-right: 0px;
+    }   
+    
+    .gradiente_back {
+        height: 100vh;
+    }
+    
+    #bubles {
+        opacity: 50%;
+    }
+    #logo {
+        margin-left: 10px;
+    }
+
+    section#dot_arrows {
+        display: none;
+    }
+    section#video {
+        position: absolute;
+        top: 550px;
+    }
+    hr#top_footer {
+        display: none;
+    }
+    footer {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+        text-align: end;
+        padding-right: 130px;
+    }
+
+    footer > div {
+        width: 200px;
+        margin: 0px -50px 0px 0px;
+    }
+
+    footer > div > p {
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px;
+        font-size: 11px;
+        
+    }
+
+    footer > div > p#footer_last_p {
+        width: 250px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        right: 5px;
+    }
+
+    footer > hr {
+        height: 3px;
+        margin: 30px -50px 30px 0px;
+        min-width: 80px;
+        max-width: 80px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.150);
+    }
+
+    footer > div > h2 {
+        position: relative;
+        margin-top: 30px;
+        margin-right: 0px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.900);
+    }
+
+    footer > div#footer_first_title {
+        width: 200px;
+    }
+
+    footer > div#footer_last_title {
+        margin-right: -50px;
+        width: 200px;
+        margin-top: -30px;
+    }
+
+    
+    menu#side_bar h2 {
+        font-weight: 100;
+    }
+    
+    #menu_hr {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+    #menu_hr hr:last-child {
+        width: 25px;
+        margin-left: 15px;
+    }
+    
+    #redes_sociais {
+        margin-bottom: 60px;
+    }
+    
+    #bar_title {
+        margin-top: 300px;
+        margin-bottom: 200px;
+    }
+    
+    
+}

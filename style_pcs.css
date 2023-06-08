@@ -1,0 +1,210 @@
+
+@media screen and (min-width: 1440px) { /* Desktop */
+
+
+    #bubles { 
+        opacity: 75%;
+    }
+
+    main {
+        padding: 0px 100px;
+        margin: 0 auto;
+        
+    }
+
+    
+    
+
+    /* article.content_flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } */
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #contact {
+        position: absolute;
+        right: 200px;
+    }
+
+    #video {
+        position: absolute;
+    }
+
+    
+
+    hr#top_footer {
+        max-width: 1400px;
+        min-width: 300px;
+        width: 81vw;
+        margin: 120px auto 40px;
+        height: 3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.150);
+    }
+
+    footer {
+        position: sticky;
+        top: 100%;
+        bottom: 0px;
+        max-width: 1400px;
+        display: flex;
+        padding: 0px 200px 40px;
+        margin: 0 auto;
+        width: 86.5vw;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    footer > div {
+        width: 400px;
+        margin: 0 30px 0px 0px;
+    }
+
+    footer > div > p {
+        /* position: relative; */
+        margin-top: 30px;
+        margin-right: 30px;
+        font-size: 11px;
+        
+    }
+
+    footer > div > p#footer_last_p {
+        width: 250px;
+        margin-top: 5px;
+    }
+
+    footer > hr {
+        height: 80px;
+        margin: 0px 80px 0px 0px;
+        min-width: 3px;
+        max-width: 3px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.150);
+    }
+
+    footer > div > h2 {
+        position: absolute;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.900);
+    }
+
+    footer > div#footer_first_title {
+        width: 200px;
+    }
+
+    footer > div#footer_last_title {
+        margin-right: 0px;
+        width: 200px;
+    }
+
+
+    div#side_bar_background {
+        background-color: #07112958;
+        position: absolute;
+        top: -60px;
+        width: 100px;
+        height: 100vh;
+        
+    }
+
+    section#side_bar {
+        
+        display: flex;
+        flex-flow: column;
+        position: absolute;
+        top: 60px;
+        right: 100px;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
+    section#side_bar hr {
+        display: block;
+        width: 40px;
+        height: 3px;
+        border: none;
+        margin: 13px auto;
+        box-shadow: 0px 0px 5px rgba(3, 98, 251, 0.287);
+        background-color: rgba(255, 255, 255, 0.400);
+    }
+
+    
+
+    section#side_bar img {
+        display: block;
+        width: 40px;
+        margin: 20px auto;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.400);
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px rgba(3, 98, 251, 0.287);
+        box-sizing: border-box;
+    }
+    section#side_bar img#share {
+        width: 30px;
+        padding: 4px;
+    }
+    section#side_bar img#question {
+        width: 30px;
+        padding: 4px;
+    }
+
+    section#side_bar h2 {
+        margin: 30px auto;
+        writing-mode: vertical-lr;
+        
+    }
+
+    #menu_hr {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+    #menu_hr hr:last-child {
+        width: 30px;
+        margin-left: 30px;
+    }
+
+    #redes_sociais {
+        margin-bottom: 150px;
+    }
+    
+    #bar_title {
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.4);
+        border-radius: 50%;
+        display: block;
+        margin: 0px 60px 10px;
+    }
+
+    span > img {
+        width: 35px;
+        margin: 20px 60px 10px 50px;
+        opacity: 30%;
+    }
+
+    #active {
+        background-color: rgba(255, 255, 255, 0.900);
+    }
+
+    #dot_arrows {
+        position: absolute;
+        margin-top: 10%;
+    }
+}
