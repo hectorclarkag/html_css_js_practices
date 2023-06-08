@@ -2,6 +2,13 @@
     body {
         box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.392);
     }
+
+    /* #content_flex {
+        margin: auto;
+        max-width: 1550px;
+    } */
+
+
     #logo {
         position: absolute;
         left: 100px;
@@ -17,7 +24,7 @@
     } 
 
     section#left {
-        margin-left: 100px;
+        margin-left: 10%;
     }
 
     section#left h4 {
@@ -25,7 +32,7 @@
     }
 
     section#left h1 {
-        font-size: 100px;
+        font-size: calc(1.5em + 100px);
     }
 
     section#left p {
@@ -50,12 +57,12 @@
         top: 400px;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 800px;
-        width: 800px;
+        min-height: 50vh;
+        min-width: 50vw;
         background-image: url(waterink_buble.png);
         background-position: center top;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         opacity: 75%;
         z-index: -1;
     }
@@ -107,7 +114,7 @@
     }
 
     hr#top_footer {
-        margin: 15vh auto 0px;
+        margin: 30vh auto 0px;
         max-width: 1420px;
     }
 
