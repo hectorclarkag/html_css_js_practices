@@ -3,7 +3,7 @@
 
     
     .gradiente_back {
-        animation: glow 3s cubic-bezier(0.8, 0.2, 0.2, 0.8) alternate infinite;
+        animation: glow 1.5s cubic-bezier(0.8, 0.2, 0.2, 0.8) alternate infinite;
     }
     
     @keyframes glow {
