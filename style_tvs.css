@@ -1,6 +1,8 @@
 @media screen and (min-width: 1800px) { /* Grandes Telas */
+
     body {
         box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.392);
+        
     }
 
     /* #content_flex {
@@ -11,11 +13,14 @@
 
     #logo {
         position: absolute;
-        left: 100px;
+        /* left: 100px; */
+        margin-left: 5%;
     }
 
     #video {
-        margin-right: 100px;
+        /* margin-right: 100px; */
+        margin-right: 10%;
+        
     }
 
     section#video img {
@@ -115,7 +120,7 @@
 
     hr#top_footer {
         margin: 30vh auto 0px;
-        max-width: 1420px;
+        max-width: 1390px;
     }
 
     footer {
@@ -123,10 +128,10 @@
         max-width: 1550px;
     }
     footer > div#footer_first_title {
-        margin-left: 105px;
+        margin-left: 124px;
     }
     footer > div#footer_last_title {
-        margin-right: -70px;
+        margin-left: 0px;
     }
     footer > hr {
         margin-top: 10px;
@@ -134,6 +139,7 @@
     footer > hr:first-of-type {
         margin-left: -80px;
     }
+
     footer > div > p#footer_last_p {
         min-width: 250px;
         margin-top: 5px;

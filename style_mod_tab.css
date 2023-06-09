@@ -1,36 +1,16 @@
+@media screen and (min-width: 568px) {
 
-@media screen and (min-width: 768px) {
+    
     body {
-        box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0);
-        margin-left: 0px;
-        margin-right: 0px;
-    }  
-    
-    .glitch span {
-        display: none;
-    }
-    
-    .gradiente_back {
-        height: 100vh;
-    }
-    
-    #bubles {
-        opacity: 50%;
-    }
-    #logo {
-        margin-left: 10px;
+        box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.0);
     }
 
-    section#dot_arrows {
-        display: none;
+
+    .gradiente_back {
+        height: 260vh;
     }
-    section#video {
-        position: absolute;
-        top: 550px;
-    }
-    hr#top_footer {
-        display: none;
-    }
+    
+    
     footer {
         position: absolute;
         top: 60px;
@@ -93,22 +73,22 @@
     div#side_bar_background {
         background-color: #07112958;
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -130px;
+        right: -8px;
         width: 60px;
-        height: 100vh;
-        
+        height: 261vh;
     }
     
     menu#side_bar {
         display: flex;
         flex-flow: column;
-        position: fixed;
+        position: relative;
         top: 0px;
         right: 0px;
         /* margin-right: 0px; */
         /* margin-left: 30px; */
     }
+
     menu#side_bar h2 {
         font-weight: 100;
     }

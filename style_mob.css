@@ -29,6 +29,10 @@ body {
     
 }
 
+.glitch span {
+    display: none;
+}
+
 img, hr, p {
     max-width: 200px;
 }
@@ -76,7 +80,7 @@ hr#top_footer {
     background-image: url(waterink_buble.png);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: fixed;
+    background-size: cover;
     opacity: 30%;
     z-index: -1;
 }
@@ -94,7 +98,14 @@ a:-webkit-any-link {
     margin-top: 20px;
     margin-left: 10px;
     text-align: center;
+    transition: transform .2s ease-in-out;
 }
+.btn:hover {
+    transform: scale(1.1);
+    border: 3px solid rgba(255, 255, 255, 0.850);
+    box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.200);
+}
+
 #logo {
     font-size: larger;
     font-weight: bold;
@@ -147,6 +158,12 @@ menu#side_bar img {
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgba(3, 98, 251, 0.287);
     box-sizing: border-box;
+    transition: transform .2s ease-in-out;
+}
+menu#side_bar img:hover {
+    transform: scale(1.3);
+    border: 3px solid rgba(255, 255, 255, 0.850);
+    box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.200);
 }
 menu#side_bar img#share, menu#side_bar img#question {
     width: 25px;
