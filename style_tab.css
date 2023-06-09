@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
     body {
         box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0);
         margin-left: 0px;
@@ -6,7 +6,7 @@
     }   
     
     .gradiente_back {
-        height: 100vh;
+        height: 250vh;
     }
     
     #bubles {
