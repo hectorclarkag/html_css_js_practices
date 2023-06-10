@@ -29,6 +29,7 @@
     } 
 
     section#left {
+        margin-top: 10%;
         margin-left: 10%;
     }
 
@@ -111,7 +112,7 @@
         top: -180px;
         right: 0px;
         width: 100px;
-        height: 180vh;
+        height: 186vh;
     }
     
     menu#side_bar {
