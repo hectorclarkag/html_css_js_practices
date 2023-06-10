@@ -7,7 +7,7 @@
 
 
     .gradiente_back {
-        height: 260vh;
+        height: 252vh;
     }
     
     
@@ -74,9 +74,9 @@
         background-color: #07112958;
         position: absolute;
         top: -130px;
-        right: -8px;
+        right: -15px;
         width: 60px;
-        height: 261vh;
+        height: 252vh;
     }
     
     menu#side_bar {

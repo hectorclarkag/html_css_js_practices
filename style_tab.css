@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     body {
         box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0);
         margin-left: 0px;
@@ -11,7 +11,7 @@
     }
     
     .gradiente_back {
-        height: 100vh;
+        height: 180vh;
     }
     
     #bubles {
@@ -93,17 +93,16 @@
     div#side_bar_background {
         background-color: #07112958;
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -130px;
+        right: -30px;
         width: 60px;
-        height: 100vh;
-        
+        height: 180vh;
     }
     
     menu#side_bar {
         display: flex;
         flex-flow: column;
-        position: fixed;
+        position: relative;
         top: 0px;
         right: 0px;
         /* margin-right: 0px; */
